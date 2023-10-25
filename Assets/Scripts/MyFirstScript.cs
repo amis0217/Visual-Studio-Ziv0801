@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class MyFirstScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    int neo123;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        Debug.Log("ÃÒ¥ó¯Â«¢¼Ó?");
+       
     }
 }
