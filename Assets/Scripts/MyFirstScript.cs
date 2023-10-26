@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MyFirstScript : MonoBehaviour
 {
-    int neo123;
+    int _neo123;
 
     private void Start()
     {

@@ -5,13 +5,14 @@ namespace Assets.Scripts
 {
     public class ConditionExample : MonoBehaviour
     {
-        int health = 100;
+        //int _health = 100;
+        bool _canAttack = true;
 
         private void Start()
         {
-            if (health >= 0)
+            if (_canAttack == true)
             {
-                Debug.Log("我還活著");
+                Debug.Log("成功攻擊");
                  
             }
         }

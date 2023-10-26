@@ -5,18 +5,18 @@ namespace Assets.Scripts
 {
     public class MethodExample : MonoBehaviour
     {
-        int health = 100;
+        int _health = 100;
 
         private void Start()
         {
-            health ++;
+            _health ++;
             HealthMinusTwo();
-            Debug.Log(health);
+            Debug.Log(_health);
         }
 
         void HealthMinusTwo()
         {
-            health -= 2;
+            _health -= 2;
         }
 
 

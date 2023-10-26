@@ -5,7 +5,7 @@ namespace Assets.Scripts
 {
     public class LocalVariable : MonoBehaviour
     {
-        int health = 100;
+        int _health = 100;
 
         private void Start()
         {
@@ -24,7 +24,7 @@ namespace Assets.Scripts
 
         void OtherTest()
         {
-            health++;
+            _health++;
         }
     }
 }
