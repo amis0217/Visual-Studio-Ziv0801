@@ -13,6 +13,7 @@ namespace Assets.Scripts
             {
                 Debug.Log(slimes[i].name);
             }
+
             
         }
     }
